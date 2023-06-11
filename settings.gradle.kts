@@ -1,3 +1,3 @@
 rootProject.name = "otus-qa-kotlin-hw"
 
-include("homework02")
+include("homework01", "homework02", "homework03")
