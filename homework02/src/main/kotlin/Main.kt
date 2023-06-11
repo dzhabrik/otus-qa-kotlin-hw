@@ -21,7 +21,7 @@ fun main() {
         val action = renderMenu()
         try {
             val func = taskActions[Actions.values()[action - 1]]
-            func?.call(repository)
+            func?.invoke(repository)
         } catch (e: ArrayIndexOutOfBoundsException) {
             //just skip
         }
