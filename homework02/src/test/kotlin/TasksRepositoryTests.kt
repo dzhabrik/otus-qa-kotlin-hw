@@ -15,7 +15,6 @@ class TasksRepositoryTests {
 
     private lateinit var tasksRepository: TasksRepository
 
-
     //@BeforeTest
     @BeforeEach
     fun initTasksRepository() {
@@ -30,7 +29,6 @@ class TasksRepositoryTests {
                 add(Task(4, "task4", Priority.HIGH, true))
                 add(Task(5, "task5", Priority.LOW, true))
             }
-        //}
     }
 
     //@AfterTest
