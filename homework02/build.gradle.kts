@@ -37,6 +37,9 @@ dependencies {
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.9.2")
 
     implementation("org.slf4j:slf4j-simple:2.0.7")
+
+    testImplementation("io.mockk:mockk:1.13.5")
+
 }
 
 tasks.test {
